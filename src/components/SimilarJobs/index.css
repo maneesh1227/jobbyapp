@@ -1,0 +1,42 @@
+.similar-job-back {
+  background-color: #272727;
+  background-size: cover;
+  width: 310px;
+  color: #ffffff;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 15px;
+}
+.similar-job-company-logo {
+  height: 50px;
+  width: 50px;
+}
+.similar-job-icon {
+  height: 18px;
+  width: 18px;
+  color: #fbbf24;
+}
+.similar-job-jobs-list-title {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.similar-job-jobs-list-rating {
+  font-size: 18px;
+}
+.similar-job-logo-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.similar-jobs-Description {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.similar-jobs-Description-para {
+  font-size: 15px;
+}
+.similar-jobs-para-detail-section {
+  font-size: 15px;
+}

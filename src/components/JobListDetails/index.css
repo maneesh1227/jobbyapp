@@ -1,0 +1,158 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.details-back {
+  background-color: #000000;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.jobs-list-title {
+  font-size: 29px;
+  margin-left: 12px;
+}
+.jobs-list-rating {
+  font-size: 24px;
+  color: #f1f5f9;
+}
+.company-logo {
+  height: 70px;
+  width: 70px;
+}
+.logo-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rating-section {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.package-para {
+  margin-left: auto;
+  font-size: 23px;
+}
+.details-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.list-para-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+}
+.para-detail-section {
+  margin-left: 10px;
+  color: #f1f5f9;
+  font-size: 23px;
+}
+.icon {
+  height: 24px;
+  width: 24px;
+}
+.jobDescription-section {
+  color: #f1f5f9;
+  font-size: 16px;
+}
+.job-list-details-back {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  background-color: #272727;
+  background-size: cover;
+  border-radius: 13px;
+  color: #ffffff;
+  padding: 30px;
+  margin: 40px;
+}
+.jbd-description {
+  font-size: 22px;
+}
+.link-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.visit {
+  display: flex;
+  align-items: center;
+}
+.visit-para {
+  margin-right: 5px;
+}
+.job-details-description-section {
+  margin-top: 20px;
+}
+.skills-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style-type: none;
+  margin-top: 20px;
+}
+.skills-section-container {
+  margin-top: 20px;
+}
+.skills-head {
+  font-size: 22px;
+}
+.life-at-company {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.life-at-company-para {
+  width: 50%;
+}
+.life-at-company-image {
+  width: 30%;
+  margin-right: 40px;
+}
+.similar-jobs-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.classback {
+  background-color: #000000;
+  background-size: cover;
+  height: 100vh;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.loader {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.retry {
+  background-color: #6366f1;
+  border: none;
+  border-radius: 5px;
+  height: 25px;
+  padding: 5px;
+  color: #ffffff;
+  width: 75px;
+  margin-top: 10px;
+}
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  cursor: pointer;
+}
